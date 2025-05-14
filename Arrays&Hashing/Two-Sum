@@ -10,3 +10,11 @@ public:
         }
     }
 };
+
+
+
+
+//TAKEAWAYS
+
+//the outer loop is the first number, the 'y' loop goes through the nums vector for every number after the first,
+//if i + y equals the target, the function returns the index of the numbers (int value of respective loops)
