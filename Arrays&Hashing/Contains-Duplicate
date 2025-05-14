@@ -11,3 +11,11 @@ public:
         return false;
     }
 };
+
+
+
+//TAKEAWAYS
+//range based for loops are designed to JUST iterate over a sequence and get the values at each index. It does not give the index of the value.
+
+//(int y = i + 1) is used to always be ahead of i by 1 index, simply using y = 1 is incorrect.
+//when y=1 and i=1, you are just comparning nums[1] with nums[1], this will always return true
